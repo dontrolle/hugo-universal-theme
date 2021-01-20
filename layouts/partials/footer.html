@@ -43,12 +43,14 @@
         </div>
         <!-- /.col-md-4 -->
 
+        {{ $show := .Scratch.Get "showContactInFooter" }}
         {{ if isset .Site.Params "address" }}
+        {{ if $show }}
         <div class="col-md-4 col-sm-6">
-
+            
           <h4>{{ i18n "contactTitle" }}</h4>
 
-            {{ .Site.Params.address | safeHTML }}
+            {{ .Site.Params.address | safeHTML }} 
 
             <a href="/contact" class="btn btn-small btn-template-main">{{ i18n "contactGoTo" }}</a>
 
@@ -56,6 +58,7 @@
 
         </div>
         <!-- /.col-md-4 -->
+        {{ end }}
         {{ end }}
 
     </div>
@@ -80,6 +83,7 @@ _________________________________________________________ -->
               <!-- Not removing this link is part of the licence conditions of the template. Thanks for understanding :) -->
 
               {{ i18n "portedBy" | markdownify }} <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+              Modded by <a href="https://github.com/dontrolle">Troels Damgaard</a>.
             </p>
         </div>
     </div>

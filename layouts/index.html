@@ -23,7 +23,9 @@
 
         {{ partial "clients.html" . }}
 
-        {{ partial "footer.html" . }}
+        {{ .Scratch.Set "showContactInFooter" "true" }}
+
+        {{ partialCached "footer.html" . }}
 
     </div>
     <!-- /#all -->
