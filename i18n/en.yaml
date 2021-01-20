@@ -59,7 +59,7 @@
   translation: "Recent posts"
 
 - id: aboutUs
-  translation: "About us"
+  translation: "About"
 
 - id: newer
   translation: "Newer"
@@ -74,7 +74,7 @@
   translation: "Error 404: Page not found"
 
 - id: 404Message
-  translation: "We are sorry – this page is not here anymore"
+  translation: "We are sorry – we cannot find this page!"
 
 - id: 404NavHome
   translation: "Go to homepage"
