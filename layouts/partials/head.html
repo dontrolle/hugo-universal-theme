@@ -100,4 +100,22 @@
   <meta name="twitter:description" content="{{ $description_plain | truncate 200 }}">
   {{ with .Param "twitter_author" }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}
 
+
+  <script type="text/javascript">
+    function gen_mail_to_link(lhs,rhs) {
+        document.write("<a href=\"mailto");
+        document.write(":" + lhs + "@");
+        document.write(rhs + "\">" + lhs + "@" + rhs + "<\/a>");
+    }
+
+    function gen_social_mail(mail) {
+      document.write("<a href=\"mailto");
+      var unscrambleMail = mail.replace("#", "@");
+      document.write(":" + unscrambleMail );
+      document.write("\" target=\"_blank\" style=\"opacity: 1;\">");
+      document.write("<i class=\"fas fa-2x fa-envelope\"></i></a>")
+    }
+
+</script>
+
 </head>
