@@ -1150,7 +1150,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/photogrid.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -1733,15 +1732,16 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-bw.png') center center repeat;
+  background: #da4d4d;
   padding: 20px 0;
+  padding-left: 10px;
   margin-bottom: 40px;
 }
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  color: #333333;
+  color: #fff;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
@@ -1759,7 +1759,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: #da4d4d;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
