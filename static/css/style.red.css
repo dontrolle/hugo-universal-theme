@@ -436,7 +436,7 @@ ul.list-style-none {
 .navbar .navbar-buttons button,
 .navbar .navbar-buttons a.btn,
 .navbar .navbar-buttons .btn-default.navbar-toggle {
-  margin-top: 11px;
+  margin-top: 15px;
   margin-bottom: 11px;
   margin-left: 0;
   margin-right: 5px;
@@ -2879,6 +2879,7 @@ fieldset[disabled] .btn-template-primary.active {
 .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px;
+  min-height: 72px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
