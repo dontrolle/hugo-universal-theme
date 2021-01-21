@@ -2817,7 +2817,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* navbar */
 .navbar {
   position: relative;
-  min-height: 62px;
+  min-height: 70px;
   margin-bottom: 0;
   border-bottom: 1px solid transparent;
 }
@@ -2985,7 +2985,7 @@ fieldset[disabled] .btn-template-primary.active {
   }
   .navbar-nav > li > a {
     padding-top: 21px;
-    padding-bottom: 21px;
+    padding-bottom: 26px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
