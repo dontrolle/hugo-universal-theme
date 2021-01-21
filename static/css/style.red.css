@@ -1229,6 +1229,11 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel ul li {
   margin-bottom: 10px;
 }
+@media (max-width: 991px) {
+  .owl-carousel .img-responsive {
+    margin: 0 auto;
+  }
+}
 .customers {
   padding: 0;
   margin-bottom: 40px;
