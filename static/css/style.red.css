@@ -1231,7 +1231,8 @@ fieldset[disabled] .btn-template-primary.active {
 }
 @media (max-width: 991px) {
   .owl-carousel .img-responsive {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .customers {
@@ -3567,4 +3568,20 @@ a.list-group-item.active > .badge,
 .yamm .dropdown.yamm-fw .dropdown-menu {
   left: 15px;
   right: 15px;
+}
+.col-sm-5 {
+  min-height: 333px;
+}
+@media (min-width: 349px) {
+  img.img-responsive {
+    margin: 4px 0 0 4px;
+    box-shadow: 0 0 0 4px #fff;
+  }
+}
+@media (max-width: 360px) {
+  .container
+  {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
 }
