@@ -1178,7 +1178,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel .owl-theme .owl-controls .owl-page:hover span {
   background: #fff;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .home-carousel {
     text-align: center !important;
   }
@@ -3584,5 +3584,20 @@ a.list-group-item.active > .badge,
   {
     padding-right: 8px;
     padding-left: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .col-sm-6 {
+    padding-top: 3%;
+  }
+}
+@media (min-width: 992px) {
+  .col-sm-5 {
+    padding-left: 6%;
+  }
+}
+@media (max-width: 768px) {
+  .home-carousel .owl-carousel {
+    padding-top: 30px;
   }
 }
