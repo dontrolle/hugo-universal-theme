@@ -1166,7 +1166,7 @@ fieldset[disabled] .btn-template-primary.active {
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
@@ -3596,8 +3596,9 @@ a.list-group-item.active > .badge,
     padding-left: 6%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .home-carousel .owl-carousel {
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
   }
 }
