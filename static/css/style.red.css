@@ -237,7 +237,7 @@ ul.list-style-none {
 #top {
   background: #555555;
   color: #eeeeee;
-  padding: 10px 0;
+  padding: 3px 0;
 }
 #top p {
   margin: 0;
@@ -436,7 +436,7 @@ ul.list-style-none {
 .navbar .navbar-buttons button,
 .navbar .navbar-buttons a.btn,
 .navbar .navbar-buttons .btn-default.navbar-toggle {
-  margin-top: 15px;
+  margin-top: 21px;
   margin-bottom: 11px;
   margin-left: 0;
   margin-right: 5px;
@@ -2987,7 +2987,7 @@ fieldset[disabled] .btn-template-primary.active {
   }
   .navbar-nav > li > a {
     padding-top: 21px;
-    padding-bottom: 26px;
+    padding-bottom: 27px;
   }
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
