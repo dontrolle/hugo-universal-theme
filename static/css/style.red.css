@@ -3575,8 +3575,6 @@ a.list-group-item.active > .badge,
 @media (min-width: 349px) {
   img.img-responsive {
     margin: 4px 0 0 4px;
-    box-shadow: 0 0 0 4px #fff;
-    border-radius: 75%;    
   }
 }
 @media (max-width: 360px) {
